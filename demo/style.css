@@ -1,0 +1,100 @@
+
+
+body {
+	text-shadow : 0 1px 0 #ffffff;
+}
+p {
+	margin-bottom: 10px;
+}
+
+
+
+
+a#back {
+	-moz-border-radius : 5px 5px 5px 5px;
+	-webkit-border-radius : 5px 5px 5px 5px;
+	background-color : #808080;
+	border-radius : 5px 5px 5px 5px;
+	color : #ffffff;
+	padding : 5px 5px 5px 5px;
+	text-decoration : none;
+	text-shadow : 0 -1px 0 #404040;
+}
+
+a#back:hover {
+	background-color : #ef2929;
+}
+
+a#download {
+	color : #4e9a06;
+}
+
+p#author {
+	color : #323232;
+}
+
+p#author a {
+	color : #75507b;
+}
+
+div#wrapper {
+	margin : 25px auto 25px auto;
+	width : 960px;
+}
+
+div.image-decorator {
+	-moz-border-radius : 5px 5px 5px 5px;
+	-moz-box-shadow : 0 0 6px #c8c8c8;
+	-webkit-border-radius : 5px 5px 5px 5px;
+	-webkit-box-shadow : 0 0 6px #c8c8c8;
+	background-color : #ffffff;
+	border : 1px solid #c8c8c8;
+	border-radius : 5px 5px 5px 5px;
+	box-shadow : 0 0 6px #c8c8c8;
+	display : inline-block;
+	float : left;
+	padding : 5px 5px 5px 5px;
+	
+	margin-top: 10px;
+}
+div.imageDecoratorHalf {
+	width: 100%;
+	-moz-border-radius : 5px 5px 5px 5px;
+	-moz-box-shadow : 0 0 6px #c8c8c8;
+	-webkit-border-radius : 5px 5px 5px 5px;
+	-webkit-box-shadow : 0 0 6px #c8c8c8;
+	background-color : #ffffff;
+	border : 1px solid #c8c8c8;
+	border-radius : 5px 5px 5px 5px;
+	box-shadow : 0 0 6px #c8c8c8;
+	display : inline-block;
+	float : left;
+	padding : 5px 5px 5px 5px;
+}
+
+div.info {
+	float : right;
+	width : 440px;
+}
+
+div.clear {
+	clear : both;
+}
+
+div.spacer {
+	height : 20px;
+}
+div.leftWrapper{
+	float:left;
+	width: 45%;
+	text-align: center;
+	margin-left: 7%;
+	
+}
+div.rightWrapper{
+	float:right;
+	width: 30%;
+	text-align: center;
+	margin-right: 7%;
+	margin-top: 36px;
+}
